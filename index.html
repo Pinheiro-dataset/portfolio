@@ -5,150 +5,216 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Rodrigo Pinheiro</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/r.png"/>
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Rodrigo Pinheiro</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" type="image/png" href="images/r.png" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		/* Focamos apenas no ID #banner, ignorando as classes do template */
+		/* Focamos apenas no ID #banner, ignorando as classes do template */
+		#banner {
+			background-color: transparent !important;
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Rodrigo</strong> <span>Pinheiro</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
+			/* Película reduzida para 0.5 (50%) com a imagem capa.png */
+			background-image: linear-gradient(rgba(36, 41, 67, 0.5), rgba(36, 41, 67, 0.5)), url("images/capa.jpg") !important;
+
+			background-size: cover !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-attachment: fixed !important;
+		}
+
+		/* Garante que nada do template fique por cima da imagem */
+		#banner:after,
+		#banner:before {
+			display: none !important;
+		}
+
+		/* Garante que o texto (Olá, eu sou Rodrigo...) fique acima da película */
+		#banner .inner {
+			position: relative !important;
+			z-index: 2 !important;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<a href="index.html" class="logo"><strong>Rodrigo</strong> <span>Pinheiro</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#one">Projetos</a></li>
+				<li><a href="#two">Sobre</a></li>
+				<li><a href="#footer">Redes Sociais</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="mailto:rodrigosantospinheiro@gmail.com"
+						class="button fit small">rodrigosantospinheiro@gmail.com</a></li>
+			</ul>
+		</nav>
+
+		<!-- Banner -->
+		<section id="banner" class="major">
+			<div class="inner">
+				<header class="major">
+					<h1>Olá, eu sou Rodrigo Pinheiro</h1>
+				</header>
+				<div class="content">
+					<p>Análise de Dados<br />
+						Problem-Solving<br />
+						Sustentabilidade</p>
+					<ul class="actions">
+						<li><a href="#one" class="button next scrolly">Conheça meu portfólio</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one" class="tiles">
+				<article>
+					<span class="image">
+						<img src="images/python.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="landing2.html" class="link">Análise Exploratória de Dados</a></h3>
+						<p>Python</p>
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="images/aaa.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="landing1.html" class="link">Criação de Dashboards</a></h3>
+						<p>Power BI</p>
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="images/database.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="landing3.html" class="link">Automações</a></h3>
+						<p>n8n + Saas + Python + BI TOOLS</p>
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="images/ufpe.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="index.html" class="link">Data Science</a></h3>
+						<p>Machine Learning [Em Construção]</p>
+					</header>
+				</article>
+
+
+			</section>
+
+			<!-- Two -->
+			<section id="two">
+				<div class="inner">
+					<header class="major">
+						<h2>Sobre mim</h2>
 					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#one">Projetos</a></li>
-							<li><a href="#two">Sobre</a></li>
-							<li><a href="#footer">Redes Sociais</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="mailto:rodrigosantospinheiro@gmail.com" class="button fit small">rodrigosantospinheiro@gmail.com</a></li>							
-						</ul>
-					</nav>
+					<p>
+						<span class="image left"><img src="images/rodrigo2.png" alt="" /></span>
+						Olá! Sou <b>Engenheiro de Produção</b> pela <a
+							href="https://drive.google.com/file/d/1IPccoSiI2B_ZXMgKeYIjKJDsMI-o7d0D/view?usp=share_link">UFPE</a>,
+						com <b>MBA em Agronegócios</b> (USP/ESALQ) e especialização em <b>Data Analytics</b> pela <a
+							href="https://drive.google.com/file/d/16u3wEspfLSRjljxrkV5YiExsUMfxL9g9/view?usp=share_link">Ada
+							Tech</a>. Atuo há mais de 3 anos em Data & Analytics aplicados à gestão em saúde pública
+						(SES-PE e FGH), transformando dados operacionais, assistenciais e financeiros em decisões
+						estratégicas.
+					</p>
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Olá, eu sou Rodrigo Pinheiro</h1>
-							</header>
-							<div class="content">
-								<p>Análise de Dados<br/>
-								Problem-Solving<br/>
-								Sustentabilidade</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Conheça meu portfólio</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+					<p>
+						Na FGH, fui responsável por planejar e implementar soluções corporativas de BI. Estruturei
+						modelos de dados e governança em ambiente Oracle/MV, criei pipelines de ETL (incluindo recursos
+						do Power BI Fabric) e entreguei dashboards executivos com DAX e boas práticas de visualização.
+						Em
+						paralelo, na Secretaria de Saúde de Pernambuco, conduzi a gestão de dados ligados aos Contratos
+						de Gestão (OSS), apoiando o monitoramento de metas, a formulação de políticas públicas
+						orientadas a dados e capacitando equipes.
+					</p>
 
-				<!-- Main -->
-					<div id="main">
+					<p>
+						Tenho experiência ponta a ponta em modelagem, integração e análise de dados utilizando <b>Power
+							BI, Microsoft Fabric, Python, SQL e IA Generativa</b>. Atualmente, estou me aprofundando em
+						engenharia de dados e ecossistemas modernos (Databricks, PySpark, Airflow, Kafka e arquitetura
+						Lakehouse), com foco em construir infraestrutura analítica escalável e gerar impacto real na
+						gestão do SUS.
+					</p>
 
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/python.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing2.html" class="link">Análise Exploratória de Dados</a></h3>
-										<p>Python</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/aaa.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing1.html" class="link">Criação de Dashboards</a></h3>
-										<p>Power BI</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/database.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="index.html" class="link">ETL (Extract, Transform & Load)</a></h3>
-										<p>SQL + BI TOOLS [Em Construção]</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/ufpe.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="index.html" class="link">Data Science</a></h3>
-										<p>Machine Learning [Em Construção]</p>
-									</header>
-								</article>
-								
+					<p>Sinta-se à vontade para acessar meu currículo, conhecer minhas redes e entrar em contato!</p>
 
-							</section>
+					<ul class="actions">
+						<li><a href="https://drive.google.com/file/d/1rLXipoSCeJqG7ofijlt1hp-_OXtYQkLO/view?usp=share_link"
+								class="button small">Baixar CV</a></li>
+						<li><a href="https://www.linkedin.com/in/rodrigo-s-pinheiro/" class="button small">Linkedin</a>
+						</li>
+						<li><a href="http://lattes.cnpq.br/4847060822625578" class="button small">Currículo Lattes</a>
+						</li>
+						<li><a href="mailto:rodrigosantospinheiro@gmail.com"
+								class="button small">rodrigosantospinheiro@gmail.com</a></li>
+					</ul>
+				</div>
+			</section>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>Sobre mim</h2>
-									</header>
-									<p><span class="image left"><img src="images/rodrigo2.png" alt="" /></span>Olá! Sou um profissional apaixonado por dados e sustentabilidade, com formação em <b>Engenharia de Produção</b> (2022) pela <a href="https://drive.google.com/file/d/1IPccoSiI2B_ZXMgKeYIjKJDsMI-o7d0D/view?usp=share_link">UFPE</a>, <b>Técnico em Agroecologia</b> pelo <a href="http://www.serta.org.br/o-serta/">SERTA</a> (2023), <b>Análise de Dados</b> (2023) pela <a href="https://drive.google.com/file/d/16u3wEspfLSRjljxrkV5YiExsUMfxL9g9/view?usp=share_link">ADA Tech</a> e <b>MBA em Agronegócios</b> (2025) pela USP/ESALQ.  Acredito na união da tecnologia e da ecologia para proporcionar um futuro mais consciente, equilibrado e próspero.</p>
-									<p></p>
-									<p>Atualmente, após a formação do MBA e pesquisar sobre agricultura familiar e segurança alimentar em meu <a href="https://drive.google.com/file/d/1zIf4c-oL7XStSeH-Fuy94grJ4KI9pOrM/view"><b>projeto acadêmico</b></a>,  estou dedicando minha jornada profissional para atuar integrando <b>Sustentabilidade, Impacto Social</b> & <b>Data Science</b>, para enfrentar problemas complexos de forma criativa e eficiente.</p>
-									<p></p>									
-									<p>Sinta-se a vontade para conhecer minhas redes, entrar em contato e conhecer meus projetos!</p>
-									<p></p>						
-									
-									<ul class="actions">
-										<li><a href="https://drive.google.com/file/d/1rLXipoSCeJqG7ofijlt1hp-_OXtYQkLO/view?usp=share_link" class="button small">Baixar CV</a></li>
-										<li><a href="https://www.linkedin.com/in/rodrigo-s-pinheiro/" class="button small">Linkedin</a></li>
-										<li><a href="http://lattes.cnpq.br/4847060822625578" class="button small">Currículo Lattes</a></li>
-										<li><a href="mailto:rodrigosantospinheiro@gmail.com" class="button small">rodrigosantospinheiro@gmail.com</a></li>
-									</ul>
-								</div>
-							</section>
-
-					</div>
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://twitter.com/Rudrigooooo" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.instagram.com/rodrigo.pinheiro_/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/Pinheiro-dataset" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/rodrigo-s-pinheiro/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Rodrigo Pinheiro</li>
-							</ul>
-						</div>
-					</footer>
-
+		</div>
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://twitter.com/Rudrigooooo" class="icon brands alt fa-twitter"><span
+								class="label">Twitter</span></a></li>
+					<li><a href="https://www.instagram.com/rodrigo.pinheiro_/"
+							class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/Pinheiro-dataset" class="icon brands alt fa-github"><span
+								class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/rodrigo-s-pinheiro/"
+							class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Rodrigo Pinheiro</li>
+				</ul>
 			</div>
+		</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	</div>
 
-	</body>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
